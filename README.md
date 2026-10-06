@@ -21,7 +21,8 @@ Each folder is a separate project with its own dependencies. For example:
     npm install
     node index.js
 
-For MIDDLEWARES, use `node app.js` instead. Then open the local port printed in the terminal, or check the `app.listen(...)` line in the entry file.
+For MIDDLEWARES, use `node app.js` instead. 
+All projects run on port 8080, so start one at a time and open http://localhost:8080.
 
 ## Author
 
